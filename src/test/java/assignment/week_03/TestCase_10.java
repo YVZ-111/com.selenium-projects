@@ -1,4 +1,4 @@
-package week_03;
+package assignment.week_03;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

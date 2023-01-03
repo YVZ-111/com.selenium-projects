@@ -1,4 +1,4 @@
-package trySelenium.week_02;
+package lecture;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

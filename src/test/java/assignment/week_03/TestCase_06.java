@@ -1,4 +1,4 @@
-package week_03;
+package assignment.week_03;
 
 public class TestCase_06 {
 
