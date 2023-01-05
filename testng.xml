@@ -1,2 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/opggx_000/Desktop/selenium-workspace/com.selenium-projects/src/test/java"><classes><class name="lecture.testNGTutorial.Day_01"><methods><include name="Demo"/><include name="SecondTest"/></methods></class><class name="lecture.testNGTutorial.Day_03"><methods><include name="WebloginCarLoan"/><include name="MobilesignimcarLoan"/><include name="MobilesignoutcarLoan"/></methods></class><class name="lecture.testNGTutorial.Day_04"><methods><include name="WebloginHomeLoan"/><include name="LoginAPIHomeLoan"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Loan Department" >
+    <listeners>
+        <listener class-name="lecture.testNGTutorial.Listeners"/>
+    </listeners>
+
+    <test name="Personal loan">
+        <parameter name="URL" value="personalloan.com"/>
+
+        <classes>
+            <class name="lecture.testNGTutorial.Day_01">
+                <methods>
+                    <include name="Demo"/>
+                </methods>
+            </class>
+
+            <class name="lecture.testNGTutorial.Day_02"/>
+            <class name="lecture.testNGTutorial.Day_04"/>
+
+        </classes>
+    </test>
+
+    <test name="Car Loan">
+
+        <parameter name="URL" value="carloan.com"/>
+        <parameter name="APIKey/usrname" value="123456"/>
+
+        <classes>
+            <class name="lecture.testNGTutorial.Day_03">
+                <methods>
+                    <exclude name="API.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -7,12 +7,12 @@ public class Day_02 {
     @Test(groups={"Smoke"})
     public void ploan()
     {
-        System.out.println("good");
+        System.out.println("@Test---day02");
     }
 
     @BeforeTest
     public void prerequiste()
     {
-        System.out.println("I will execute first");
+        System.out.println("@BeforeTest---day02");
     }
 }

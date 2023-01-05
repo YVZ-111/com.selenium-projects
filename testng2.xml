@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Loan Department">
-
-    <test name="Personal loan">
-  <packages>
-      <package name= "test"/>
-          
-  </packages>
-  </test>
-</suite> 
+<suite name="Suite">
+    <test name="Test1">
+        <classes>
+            <class name="com.example.TestExample1" />
+            <class name="com.example.TestExample2" />
+        </classes>
+        <methods>
+            <include name="testMethod1" />
+            <include name="testMethod2" />
+        </methods>
+    </test>
+    <test name="Test2">
+        <groups>
+            <run>
+                <include name="group1" />
+                <exclude name="group2" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.TestExample3" />
+            <class name="com.example.TestExample4" />
+        </classes>
+        <methods>
+            <include name="testMethod3" />
+            <include name="testMethod4" />
+        </methods>
+    </test>
+</suite>

@@ -6,67 +6,67 @@ public class Day_03 {
     @BeforeClass
     public void befoclas()
     {
-        System.out.println("before executing any methods in the class");
+        System.out.println("@BeforeClass---day03");
     }
     @Parameters({ "URL","APIKey/usrname" })
     @Test
     public void WebloginCarLoan(String urlname,String key)
     {
         //selenium
-        System.out.println("weblogincar");
+        System.out.println("@Test---day03");
         System.out.println(urlname);
         System.out.println(key);
-
+        System.out.println("---------------");
     }
     @BeforeMethod
     public void beforeevery()
     {
-        System.out.println(" I will execute before every test method in day 3 class");
+        System.out.println("@BeforeMethod---day03");
     }
 
     @AfterMethod
     public void afterevery()
     {
-        System.out.println(" I will execute after  every test method in day 3 class");
+        System.out.println("@AfterMethod---day03");
     }
     @AfterClass
     public void afteclas()
     {
-        System.out.println("After executing all methods in the class");
+        System.out.println("@AfterClass---day03");
     }
 
     @Test(groups={"Smoke"})
     public void MobileLogincarLoan()
     {
         //Appium
-        System.out.println("Mobilelogincar");
+        System.out.println("@Test---day03");
     }
     @BeforeSuite
     public void Bfsuite()
     {
-        System.out.println(" I am no 1");
+        System.out.println("@BeforeSuite---day03");
     }
     @Test(enabled=false)
     public void MobilesignimcarLoan()
     {
         //Appium
-        System.out.println("Mobile SIGIN");
+        System.out.println("@Test---day03");
     }
     @Test(dataProvider="getData")
     public void MobilesignoutcarLoan(String username,String password)
     {
         //Appium
-        System.out.println("Mobile SIGNOUT");
+        System.out.println("@Test---day03");
         System.out.println(username);
         System.out.println(password);
-
+        System.out.println("--------------");
     }
 
     @Test(dependsOnMethods={"WebloginCarLoan","MobilesignoutcarLoan"})
     public void APIcarLoan()
     {
         //Rest API automation
-        System.out.println("APIlogincar");
+        System.out.println(" @Test---day03");
     }
     @DataProvider
     public Object[][] getData()

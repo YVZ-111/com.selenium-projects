@@ -9,9 +9,9 @@ public class Day_04 {
     public void WebloginHomeLoan(String uname)
     {
         //selenium
-        System.out.println("webloginhomePersonalLoan");
+        System.out.println("@Test---day04");
         System.out.println(uname);
-
+        System.out.println("--------------");
     }
 
 
@@ -19,13 +19,13 @@ public class Day_04 {
     public void MobileLoginHomeLoan()
     {
         //Appium
-        System.out.println("MobileloginHome");
+        System.out.println("@Test---day04");
     }
 
     @Test
     public void LoginAPIHomeLoan()
     {
         //Rest API automation
-        System.out.println("APIloginHome");
+        System.out.println("@Test---day04");
     }
 }

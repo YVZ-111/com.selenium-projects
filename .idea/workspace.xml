@@ -5,44 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3bd575e-45f4-4008-ab9d-3a5ffab9eb21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/BrokenLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/Calender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/LiveDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/NewWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/RelativeLoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/SSLCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/Scope_e2e.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/Wait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/WindowHandles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Listeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractComponent/AbstractComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ConfirmationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/OrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProductCatalogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/ExtentReporterNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/GlobalData.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/assignment/week_04/TestCase_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/assignment/week_04/TestExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/assignment/week_04/TestExample_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/cucumber/ErrorValidations.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/cucumber/SubmitOrder.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/cucumber/TestNGTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/data/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/data/PurchaseOrder.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/stepDefination/StepDefinitionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/testComponents/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/testComponents/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/testComponents/Retry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/tests/ErrorValidationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/tests/StandAloneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/tests/SubmitOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/trySelenium/week_01/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/trySelenium/week_02/StaticDropdowns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lecture/StaticDropdowns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_02/LogInPage_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_02/LogInPage_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_02/LogInPage_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_02/LogInPage_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_02/LogInPage_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_02/LogInPage_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_02/Order_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_02/Order_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_02/ViewAllOrders_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_02/ViewAllOrders_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_02/ViewAllOrders_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_02/ViewAllOrders_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_02/ViewAllOrders_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_02/ViewAllOrders_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_03/TestCase_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_03/TestCase_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_03/TestCase_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_03/TestCase_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_03/TestCase_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_03/TestCase_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_03/TestCase_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_03/TestCase_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_03/TestCase_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_03/TestCase_05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_03/TestCase_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_03/TestCase_06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_03/TestCase_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_03/TestCase_07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_03/TestCase_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_03/TestCase_08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_03/TestCase_09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_03/TestCase_09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_03/TestCase_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/week_03/TestCase_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lecture/testNGTutorial/Day_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng3.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,25 +70,46 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/opggx_000/Desktop/selenium-workspace/com.selenium-projects",
-    "project.structure.last.edited": "Libraries",
+    "last_opened_file_path": "C:/Users/opggx_000/Desktop/selenium-workspace/com.selenium-projects/src/test/java/lecture/cucumber",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.23793103",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\opggx_000\Desktop\selenium-workspace\com.selenium-projects\src\test\java\lecture\cucumber" />
+      <recent name="C:\Users\opggx_000\Desktop\selenium-workspace\com.selenium-projects\src\test\java\lecture\data" />
+      <recent name="C:\Users\opggx_000\Desktop\selenium-workspace\com.selenium-projects\src\test\java\lecture\stepDefination" />
+      <recent name="C:\Users\opggx_000\Desktop\selenium-workspace\com.selenium-projects\src\test\java\lecture\testComponents" />
+      <recent name="C:\Users\opggx_000\Desktop\selenium-workspace\com.selenium-projects\src\test\java\lecture\tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\opggx_000\Desktop\selenium-workspace\com.selenium-projects" />
+      <recent name="C:\Users\opggx_000\Desktop\selenium-workspace\com.selenium-projects\src\test\java\assignment\week_04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Wait">
+  <component name="RunManager" selected="TestNG.C:/Users/opggx_000/Desktop/selenium-workspace/com.selenium-projects/testng.xml">
+    <configuration name="TestCase_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment.week_04.TestCase_01" />
+      <module name="com.selenium-projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment.week_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCase_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_03.TestCase_02" />
+      <option name="MAIN_CLASS_NAME" value="assignment.week_04.TestCase_02" />
       <module name="com.selenium-projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture.*" />
+          <option name="PATTERN" value="assignment.week_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,28 +117,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCase_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_03.TestCase_05" />
+    <configuration name="C:/Users/opggx_000/Desktop/selenium-workspace/com.selenium-projects/testng2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.selenium-projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week_03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.Wait" />
+    <configuration name="C:/Users/opggx_000/Desktop/selenium-workspace/com.selenium-projects/testng3.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.selenium-projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng3.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,30 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day_01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.selenium-projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture.testNGTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lecture.testNGTutorial" />
-      <option name="MAIN_CLASS_NAME" value="lecture.testNGTutorial.Day_01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Wait" />
         <item itemvalue="TestNG.C:/Users/opggx_000/Desktop/selenium-workspace/com.selenium-projects/testng.xml" />
-        <item itemvalue="TestNG.Day_01" />
-        <item itemvalue="Application.TestCase_05" />
+        <item itemvalue="Application.TestCase_01" />
         <item itemvalue="Application.TestCase_02" />
+        <item itemvalue="TestNG.C:/Users/opggx_000/Desktop/selenium-workspace/com.selenium-projects/testng3.xml" />
+        <item itemvalue="TestNG.C:/Users/opggx_000/Desktop/selenium-workspace/com.selenium-projects/testng2.xml" />
       </list>
     </recent_temporary>
   </component>

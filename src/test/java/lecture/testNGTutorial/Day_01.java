@@ -6,29 +6,28 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class Day_01 {
-    // TODO Auto-generated method stub
     @AfterTest
     public void lastexecution()
     {
-        System.out.println("I will execute last");
+        System.out.println("@AfterTest---day01");
 
     }
     @Test
     public void Demo()
     {
-        System.out.println("hello");//automation
-        Assert.assertTrue(false);
+        System.out.println("@Test---day01");//automation
+        Assert.assertTrue(true);
     }
     @AfterSuite
 
     public void afSyite()
     {
-        System.out.println("I am the no 1 from last ");
+        System.out.println("@AfterSuite---day01");
     }
     @Test
     public void SecondTest()
     {
-        System.out.println("bye");
+        System.out.println("@Test---day01");
     }
 
 
