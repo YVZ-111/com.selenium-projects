@@ -12,7 +12,7 @@ public class LandingPage extends AbstractComponent {
 	
 	public LandingPage(WebDriver driver)
 	{
-		super(driver);
+		 super(driver);
 		//initialization
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

@@ -24,13 +24,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import rahulshettyacademy.TestComponents.BaseTest;
-import rahulshettyacademy.pageobjects.CartPage;
-import rahulshettyacademy.pageobjects.CheckoutPage;
-import rahulshettyacademy.pageobjects.ConfirmationPage;
-import rahulshettyacademy.pageobjects.LandingPage;
-import rahulshettyacademy.pageobjects.OrderPage;
-import rahulshettyacademy.pageobjects.ProductCatalogue;
+import pageObjects.ProductCatalogue;
+;
 
 public class SubmitOrderTest extends BaseTest{
 	String productName = "ZARA COAT 3";

@@ -18,7 +18,6 @@ import pageObjects.LandingPage;
 public class StandAloneTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		String productName = "ZARA COAT 3";
 		WebDriverManager.chromedriver().setup();
@@ -26,6 +25,7 @@ public class StandAloneTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/client");
+
 		LandingPage landingPage = new LandingPage(driver);
 		driver.findElement(By.id("userEmail")).sendKeys("anshika@gmail.com");
 		driver.findElement(By.id("userPassword")).sendKeys("Iamking@000");
